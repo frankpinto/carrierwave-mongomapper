@@ -1,7 +1,7 @@
-require "carrierwave-mongomapper/version"
+require 'carrierwave-mongomapper/version'
+require 'carrierwave/orm/mongomapper'
 
 module Carrierwave
   module Mongomapper
-    # Your code goes here...
   end
 end
