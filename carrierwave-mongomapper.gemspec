@@ -5,9 +5,9 @@ require "carrierwave-mongomapper/version"
 Gem::Specification.new do |s|
   s.name        = "carrierwave-mongomapper"
   s.version     = Carrierwave::Mongomapper::VERSION
-  s.authors     = ["Christopher Giroir"]
-  s.email       = ["kelsin@valefor.com"]
-  s.homepage    = "https://github.com/Kelsin/carrierwave-mongomapper"
+  s.authors     = ["Frank Pinto"]
+  s.email       = ["frank@ayalo.co"]
+  s.homepage    = "https://github.com/frankpinto/carrierwave-mongomapper"
   s.summary     = %q{MongoMapper ORM file for CarrierWave}
   s.description = %q{MongoMapper ORM file for CarrierWave}
 
