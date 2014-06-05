@@ -41,9 +41,11 @@ end # CarrierWave
 
 module MongoMapper
   module Document
-    included do
-      extend CarrierWave::Mount
-      extend CarrierWave::MongoMapper
+    def self.included(base)
+      base.class_eval do
+        extend CarrierWave::Mount
+        extend CarrierWave::MongoMapper
+      end
     end
   end
 end
