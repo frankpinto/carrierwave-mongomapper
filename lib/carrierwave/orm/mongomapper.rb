@@ -48,4 +48,11 @@ module MongoMapper
       end
     end
   end
+
+  module EmbeddedDocument
+	include do
+      extend CarrierWave::Mount
+      extend CarrierWave::MongoMapper
+    end
+  end
 end
